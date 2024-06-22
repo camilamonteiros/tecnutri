@@ -1,0 +1,16 @@
+.linkBtn{
+  outline: none;
+  border: 2px solid var(--branco);
+  background-color: var(--preto);
+  color: var(--branco);
+  
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+.linkBtn:hover{
+  border: none;
+  background-color: var(--branco);
+  color: var(--preto);
+  font-family: var(--textoBold);
+}

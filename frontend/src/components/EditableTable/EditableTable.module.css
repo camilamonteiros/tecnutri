@@ -1,0 +1,121 @@
+.tableHead{
+  background-color: var(--preto);
+  color: var(--branco);
+  font-family: var(--textMedium);
+  font-size: 16px;
+  padding: .75rem!important;
+}
+th{
+  border-right: 1px solid #fff;
+}
+th:last-child{
+  border: none;
+}
+td{
+  border-top: none;
+  border-bottom: none;
+  border-right: 1px solid #1a1a1a !important;
+}
+td input{
+  width: 100%;
+}
+td:last-child{
+  border-right: none !important;
+}
+.tableText{
+  padding: 0.5rem !important;
+  font-size: 14px;
+  color: #1a1a1a !important;
+}
+.acoes{
+  background-color: #1a1a1a;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+}
+.acoes:hover{
+  background-color: #fff;
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+}
+
+.newUser{
+  background-color: #1a1a1a;
+  border: none;
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: #fff;
+}
+.newUser:hover{
+  font-family: var(--textoBold);
+  background-color: #fff;
+  border: 1px solid #1a1a1a;
+  color: #1a1a1a;
+}
+.cancel{
+  background-color: var(--branco);
+  border: 1px solid var(--vermelho);
+  margin: 5px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: var(--vermelho);
+}
+.cancel:hover{
+  font-family: var(--textoBold);
+  background-color: #fff;
+  border: 1px solid var(--vermelho);
+  color: var(--vermelho);
+}
+.inputBox input{
+  width: 50%;
+  border: 1px solid #1a1a1a;
+  border-radius: 5px;
+  margin: 25px 0 25px 0 !important;
+}
+@media screen and (max-width: 992px) {
+  td input{
+    width: 50%;
+  }
+thead {
+    display: none;
+}
+tr {
+    display: block;
+    margin-bottom: 30px;
+    border: 1px solid #1a1a1a;
+}
+td {
+    display: block;
+    font-size: 14px;
+    position: relative;
+    text-align: right;
+    border-right: none !important;
+    border-bottom: 1px solid #1a1a1a;
+
+}
+tbody tr td{
+  border-bottom: 1px solid #1a1a1a;
+}
+tbody tr td::before {
+    color: #1a1a1a;
+    content: attr(data-label);
+    left: 15px;
+    position: absolute;
+    font-family: var(--textoBold);
+    
+}
+tbody tr td:first-child {
+    font-size: 16px;
+    background-color: #1a1a1a;
+    color: #fff !important;
+    
+}
+tbody tr td:first-child::before {
+    color: #fff;
+    font-family: var(--textoBold);
+    
+}
+}

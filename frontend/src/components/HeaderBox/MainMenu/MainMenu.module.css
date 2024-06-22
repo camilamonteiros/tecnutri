@@ -1,0 +1,34 @@
+.container{
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+}
+
+.menu{
+  display: flex;
+  color: var(--preto);
+  font-size: 1.5rem;
+  font-family: var(--textoRegular);
+}
+.menu a {
+  color: var(--preto);
+}
+
+.menu a:hover{
+  font-family: var(--fontBold);
+}
+
+.menuEsquerda{
+  align-items: center;
+}
+.menuDireita{
+  justify-content: flex-end;
+  align-items: center;
+}
+.menuLogo{
+  justify-content: center;
+  align-items: center;
+}
+.logoPrincipal{
+  height: 3rem;
+
+}

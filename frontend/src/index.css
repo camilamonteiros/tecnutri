@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "BarlowBold";
+  src: url("../fonts/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: "BarlowMedium";
+  src: url("../fonts/Barlow-Medium.ttf");
+}
+@font-face {
+  font-family: "BarlowRegular";
+  src: url("../fonts/Barlow-Regular.ttf");
+}
+
+:root{
+  --textoRegular: "BarlowRegular";
+  --textoMedium: "BarlowMedium";
+  --textoBold: "BarlowBold";
+
+  --branco: #FFFFFF;
+  --preto: #1a1a1a;
+  --vermelho: #e00909;
+
+  --verdeEscuro: #115923;
+  --verdeClaro: #9FC131;
+}
+body{
+  font-family: var(--textoRegular);
+}
+a{
+  text-decoration: none;
+}

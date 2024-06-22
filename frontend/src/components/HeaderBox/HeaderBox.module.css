@@ -1,0 +1,15 @@
+.container{
+  background-color: var(--preto);
+  border-radius: 1rem 1rem 0 0;
+  padding: 2rem ;
+}
+.navBar{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.headerBox{
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 0.4);
+  width: 100%;
+
+}

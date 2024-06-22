@@ -1,0 +1,9 @@
+
+.navLink{
+font-family: var(--textoRegular);
+font-size: 1.25rem;
+color: var(--branco);
+}
+.navLink:hover{
+  font-family: var(--textoBold);
+}

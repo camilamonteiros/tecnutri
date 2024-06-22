@@ -1,0 +1,11 @@
+.inputBox{
+  outline: none;
+  border-width: 0 0 2px 0;
+border-color: var(--verdeEscuro);
+}
+.formField label{
+  font-family: var(--textoBold);
+}
+.formField{
+  margin-bottom: 30px;
+}
